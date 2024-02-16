@@ -8,25 +8,188 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Fonts -->
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <!-- Other head elements -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <!-- CSS -->
     <link rel="stylesheet" href="/css/main.css">
+
 </head>
 
 <body>
+    <header>
+        <section class="nav__section">
+            <a href="/"><img class="logo" src="./assets/images/logofoto.jpeg" alt="Ligia Borges Logo"></a>
+            <nav>
+                <ul>
+                    <li><a href="./web/gallery.html">Shop</a></li>
+                    <li><a href="./web/about.html">About</a></li>
+                    <li><a href="./web/contact.html">Contact</a></li>
+                    <i class="ph ph-list"></i>
+                </ul>
+            </nav>
+        </section>
 
-    <nav>
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Services</a>
-        <a href="#">Contact</a>
-    </nav>
+    </header>
+    <main>
+        <!-- Image and Introductory text -->
+        <section class="main__section">
+            <div class="firstbox__section__one">
+                <h1 class="text__hone">Shop the latest trends</h1>
+                <p class="text__p">Get the best deals on the latest trends</p>
+                <button class="shopknow__buttom"><a href="./web/wishlist.html">
+                        <p class="button__p">Shop Know</p>
+                    </a></button>
+            </div>
+            <aside class="aside__section">
+                <hr class="dashed">
+                <img class="fashionwoman__sectionone" src="./assets/images/Stylish-young-woman-PNG.png"
+                    alt="Fashion Woman">
+            </aside>
+        </section>
 
-    <!-- Your page content goes here -->
+        <!-- GALLERY SECTION -->
+        <section class="gallery__section">
+            <h1 class="title__gallery">Your Gallery</h1>
+            <article class="gallery__container">
+                <div class="gallery__card">
+                    <img class="gallery__image" src="./assets/images/Gemini_Generated_Image(1).jpg"
+                        alt="Clothes images">
+                    <p class="text__p">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut beatae ea obcaecati a odio odit
+                        aliquid soluta! Quo, ea!
+                    </p>
+                </div>
+                <div class="gallery__card">
+                    <img class="gallery__image" src="./assets/images/Gemini_Generated_Image(2).jpg"
+                        alt="Clothes images">
+                    <p class="text__p">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut beatae ea obcaecati a odio odit
+                        aliquid soluta! Quo, ea!
+                    </p>
+                </div>
+                <div class="gallery__card">
+                    <img class="gallery__image" src="./assets/images/Gemini_Generated_Image(3).jpg"
+                        alt="Clothes images">
+                    <p class="text__p">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut beatae ea obcaecati a odio odit
+                        aliquid soluta! Quo, ea!
+                    </p>
+                </div>
+                <div class="gallery__card">
+                    <img class="gallery__image" src="./assets/images/Gemini_Generated_Image(4).jpg"
+                        alt="Clothes images">
+                    <p class="text__p">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut beatae ea obcaecati a odio odit
+                        aliquid soluta! Quo, ea!
+                    </p>
+                </div>
+                <div class="gallery__card">
+                    <img class="gallery__image" src="./assets/images/Gemini_Generated_Image(5).jpg"
+                        alt="Clothes images">
+                    <p class="text__p">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut beatae ea obcaecati a odio odit
+                        aliquid soluta! Quo, ea!
+                    </p>
+                </div>
+                <div class="gallery__card">
+                    <img class="gallery__image" src="./assets/images/Gemini_Generated_Image(6).jpg"
+                        alt="Clothes images">
+                    <p class="text__p">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut beatae ea obcaecati a odio odit
+                        aliquid soluta! Quo, ea!
+                    </p>
+                </div>
+                <div class="gallery__card">
+                    <img class="gallery__image" src="./assets/images/Gemini_Generated_Image(7).jpg"
+                        alt="Clothes images">
+                    <p class="text__p">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut beatae ea obcaecati a odio odit
+                        aliquid soluta! Quo, ea!
+                    </p>
+                </div>
+                <div class="gallery__card">
+                    <img class="gallery__image" src="./assets/images/Gemini_Generated_Image(8).jpg"
+                        alt="Clothes images">
+                    <p class="text__p">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut beatae ea obcaecati a odio odit
+                        aliquid soluta! Quo, ea!
+                    </p>
+                </div>
+                <div class="gallery__card">
+                    <img class="gallery__image" src="./assets/images/Gemini_Generated_Image(9).jpg"
+                        alt="Clothes images">
+                    <p class="text__p">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut beatae ea obcaecati a odio odit
+                        aliquid soluta! Quo, ea!
+                    </p>
+                </div>
+            </article>
+        </section>
+    </main>
 
-</body>
+    <!-- CONTACT US PART -->
+    <section class="contact__us__container">
+        <form action="/en-us/docs/Web/HTTP/attributes/placeholder" method="post">
+            <h2>Contact US</h2>
 
-<body>
+            <input type="text" id="name" name="name" placeholder=" Name" required><br>
 
+            <input type="email" id="email" name="email" placeholder="applecanada@gmail.com" required><br>
+
+            <textarea id="message" name="message" rows="4" placeholder="Text here" cols="50"></textarea><br>
+
+            <select id="subject" name="subject">
+                <option value="in-store">In-Store Experience</option>
+                <option value="hiring">Hiring Opportunities</option>
+                <option value="order">Order Placed Through Our App</option>
+            </select><br>
+            <input type="submit" value="Send Us An Email">
+
+            <!-- FAQ SECTION -->
+            <div class="faqdiv">
+                <section class="faq">
+                    <h2>Frequently Asked Questions</h2>
+                    <details>
+                        <summary>What are your opening hours?</summary>
+                        <p>We are open from 8am to 5pm every day,<br>
+                            sundays we are closed!
+                        </p>
+                    </details>
+                    <details>
+                        <summary>Do you usually give dicount?</summary>
+                        <p>Yes, but only for beautiful womens</p>
+                    </details>
+                    <details>
+                        <summary>Do you have you own clothes brand ?</summary>
+                        <p>We work with the best suppliers on the market!</p>
+                    </details>
+                </section>
+            </div>
+    </section>
+    <!-- FOOTER SECTION -->
+    <footer class="footer__section">
+        <div class="footer__section__one">
+            <h2>Get in touch</h2>
+            <p>Phone: +55 34 98819-0700 <br>
+            Email: aigilborges@hotmail.com <br>
+            Address: Ave Belo Horizonte 1084, Uberlandia/MG</p>
+        </div>
+        <div class="footer__section__two">
+            <h2>Follow us</h2>
+            <div class="socialmedia__a">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+
+        <div class="copyright__section">
+            <i class="ph ph-copyright"></i>
+            <p>2024 Ligia Borges</p>
+        </div>
+
+    </footer>
 </body>
 
 </html>
